@@ -34,12 +34,12 @@ public class HomeController {
    
     @GetMapping("")
     public String home() throws JsonProcessingException { 
-        return "home1";
+        return "home3";
     }
     
     @GetMapping("message")
     public String message() throws JsonProcessingException {
         System.out.println("message: " + message);
-        return "message1: " + message;
+        return "message: " + message;
     }
 }
